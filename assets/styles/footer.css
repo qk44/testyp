@@ -1,0 +1,36 @@
+.footer {
+    padding: 115px 0 42px 0;
+    background: #333333;
+
+}
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 82px;
+    align-items: center;
+}
+.footer .container .block-head{
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+.footer .container .block-head .text {
+    display: flex;
+    gap: 42px;
+
+}
+.footer .container .block-head .text .carde {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px 15px;
+    border-top: 2px solid #FFFFFF;
+
+}
+.footer .b{
+    color: #FFFFFF;
+}
+.footer .container .block-footer {
+    display: flex;
+    gap: 24px;
+}

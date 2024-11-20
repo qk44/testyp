@@ -1,0 +1,83 @@
+.section-welcome {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../imgs/1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-welcome .header {
+    height: 70px;
+    background: rgb(255, 255, 255, 0.7);
+}
+.section-welcome .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.section-welcome .header .container .cards{
+    display: flex;
+    gap: 20px;
+
+}
+.section-welcome .header .container .cards p {
+     transition: .3s;
+
+ }
+.section-welcome .header .container .cards p:hover {
+    color: #E63350;
+    transition: .3s;
+
+}
+.section-welcome .header .container .leave-button {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.section-welcome .section-main .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 44px;
+    padding: 244px 169px 286px 169px;
+    justify-content: center;
+    text-align: center;
+}
+.section-welcome .section-main .container p{
+    color: #FFFFFF;
+}
+.section-welcome .section-main .container button {
+    margin-top: 47px;
+}
+
+@media (max-width: 1240px) {
+    .container{
+        width: 800px;
+    }
+    .section-welcome .header {
+        height: 240px;
+    }
+    .section-welcome .header .container {
+        padding: 30px 0;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .section-welcome .section-main .container .semibold-80 {
+        font-size: 46px;
+    }
+    .section-welcome .section-main .container .regular-20 {
+        font-size: 16px;
+    }
+    .section-welcome .section-main .container {
+        padding: 60px ;
+        gap: 24px;
+    }
+}
+@media (max-width: 640px) {
+
+    .section-welcome .section-main .container .regular-20 {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,35 @@
+.section-sale {
+    padding: 80px 0;
+}
+.section-sale .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.section-sale .container .semibold-48 {
+    padding-bottom: 40px;
+}
+.section-sale .container .cards{
+    display: flex;
+    gap: 20px;
+}
+.section-sale .container .cards .carde{
+    padding: 37px 20px;
+    height: 277px;
+    width: 277px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+    border: 3px solid #E63350;
+    align-items: center;
+    transition: .3s;
+}
+.section-sale .container .cards .carde:hover{
+    border: 3px solid #145EA9;
+    transition: .5s;
+}
+.section-sale .container .cards .carde .svg{
+    margin-top: 13px;
+}
